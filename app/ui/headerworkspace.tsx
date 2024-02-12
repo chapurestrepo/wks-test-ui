@@ -20,8 +20,7 @@ export const HeaderWorkspace = ({ text }: { text: string }) => {
             icon: <CdsIcon icon="edit-left"/>,
             onChange: setEditableStr,
             autoSize: { minRows: 1, maxRows: 1 },
-            maxLength: 40,
-            enterIcon: <CdsIcon icon="check-circle"/>
+            maxLength: 40
           }}
           ellipsis
           style={{ width: "100%" }}
