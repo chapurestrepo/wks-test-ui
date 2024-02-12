@@ -1,0 +1,9 @@
+$config-typography-400-path: '/fonts/NettoPro/NettoPro.otf';
+$config-typography-700-path: '/fonts/NettoPro/NettoProBold.otf';
+
+$config-icons-path-eot: '/fonts/icons/CDSIcons.eot';
+$config-icons-path-ttf: '/fonts/icons/CDSIcons.ttf';
+$config-icons-path-woff: '/fonts/icons/CDSIcons.woff';
+$config-icons-path-svg: '/fonts/icons/CDSIcons.svg';
+
+@import '@circutor/ui/scss/common/cds-bundle.scss';

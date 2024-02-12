@@ -1,7 +1,17 @@
-import Image from 'next/image';
+import { CdsButton } from "@circutor/react-ui";
 
 export default function Home() {
+  
   return (
-    <p>Un test</p>
+    <CdsButton
+      type="submit"
+      buttonType="primary"
+      icon="delete"
+      iconPosition="right"
+      loading
+    >
+      Button label
+    </CdsButton>
   );
 }
+
