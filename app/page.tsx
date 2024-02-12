@@ -1,17 +1,11 @@
-import { CdsButton } from "@circutor/react-ui";
+import { HeaderWorkspace } from "./ui/headerworkspace";
 
 export default function Home() {
   
   return (
-    <CdsButton
-      type="submit"
-      buttonType="primary"
-      icon="delete"
-      iconPosition="right"
-      loading
-    >
-      Button label
-    </CdsButton>
+    <div className="layout">
+      <HeaderWorkspace text="hola mundo"/>
+    </div>
   );
 }
 

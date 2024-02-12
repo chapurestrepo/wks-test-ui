@@ -7,3 +7,14 @@ $config-icons-path-woff: '/fonts/icons/CDSIcons.woff';
 $config-icons-path-svg: '/fonts/icons/CDSIcons.svg';
 
 @import '@circutor/ui/scss/common/cds-bundle.scss';
+
+
+.layout{
+    padding: 16px;
+}
+
+@media screen and (min-width:768px){
+    .layout{
+        padding: 16px 40px;
+    }
+}

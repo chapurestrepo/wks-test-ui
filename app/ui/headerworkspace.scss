@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  &__title {
+    width: 100%;
+    max-width: 550px;
+    .ant-typography {
+      margin: 0;
+      display: flex;
+      align-items: center;
+      i{
+        background-color: white;
+        transform: translateX(-30px);
+      }
+    }
+    textarea {
+      text-wrap: nowrap;
+      overflow: hidden;
+    }
+  }
+
+  &__button-group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cds-button__text {
+    display: none;
+  }
+}
