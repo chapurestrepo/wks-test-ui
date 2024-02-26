@@ -42,6 +42,8 @@ export const HeaderWorkspace = ({ text }: { text: string }) => {
           icon="delete"
           iconPosition="right"
         ></CdsButton>
+
+
       </div>
     </article>
   );
